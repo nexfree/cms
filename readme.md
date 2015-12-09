@@ -25,3 +25,23 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ### License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+
+```cli
+php artisan make:migration create_users_table --create=users
+php artisan make:migration create_pages_table --create=pages
+php artisan make:migration create_tags_table --create=tags
+php artisan make:migration create_posts_table --create=posts
+php artisan make:migration create_comments_table --create=comments
+php artisan make:migration create_menus_table --create=menus
+php artisan make:migration create_post_tags_table --create=post_tags
+php artisan make:migration create_settings_table --create=settings
+```
+
+php artisan make:seeder UserTableSeeder
+php artisan make:seeder PageTableSeeder
+php artisan make:seeder TagTableSeeder
+php artisan make:seeder PostTableSeeder
+php artisan make:seeder CommentsTableSeeder
+php artisan make:seeder MenuTableSeeder
+php artisan make:seeder PostTagTableSeeder
+php artisan make:seeder SettingTableSeeder
