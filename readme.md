@@ -45,3 +45,12 @@ php artisan make:seeder CommentsTableSeeder
 php artisan make:seeder MenuTableSeeder
 php artisan make:seeder PostTagTableSeeder
 php artisan make:seeder SettingTableSeeder
+
+php artisan make:model User
+php artisan make:model Page
+php artisan make:model Tag
+php artisan make:model Post
+php artisan make:model Comments
+php artisan make:model Menu
+php artisan make:model PostTag
+php artisan make:model Setting
