@@ -18,4 +18,6 @@ Route::get('/', function () {
 Route::group(['prefix' => 'dash', 'namespace' => 'Dash'], function () {
     Route::get('page/json', 'PageController@json');
     Route::resource('page', 'PageController');
+    Route::get('user/json', 'PageController@json');
+    Route::resource('user', 'PageController');
 });
