@@ -9,8 +9,8 @@ class CreateUsersTable extends Migration {
             $table->increments('id', 11);
             $table->string('username', 70);
             $table->string('password', 70);
-            $table->string('first_name', 70);
-            $table->string('last_name', 70);
+            $table->string('firstname', 70);
+            $table->string('lastname', 70);
             $table->enum('type', ['admin', 'user']);
             $table->string('email')->unique();
             $table->string('phone', 11);
