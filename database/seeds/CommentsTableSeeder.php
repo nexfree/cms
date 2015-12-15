@@ -8,9 +8,9 @@ class CommentsTableSeeder extends Seeder {
             ['1', '1', 'text somthing 1'],
             ['2', '2', 'text somthing 2'],
             ['3', '3', 'text somthing 3'],
-            ['4', '4', 'text somthing 4'],
-            ['5', '5', 'text somthing 5'],
-            ['6', '6', 'text somthing 6']
+            ['1', '4', 'text somthing 4'],
+            ['2', '5', 'text somthing 5'],
+            ['3', '6', 'text somthing 6']
         ];
 
         foreach ($comments as $comment) {
