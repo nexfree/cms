@@ -54,3 +54,14 @@ php artisan make:model Comments
 php artisan make:model Menu
 php artisan make:model PostTag
 php artisan make:model Setting
+
+
+First Configure
+
+# Command bellow
+
+# To get all laravel package such as Illuminate/Html ...
+composer install
+
+# To get all bower package for frontend such as jquery, bootstap, angularjs ...
+bower install

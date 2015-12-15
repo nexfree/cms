@@ -15,7 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('dash', function () {
+    return view('dashboard');
+});
+
 Route::group(['prefix' => 'dash', 'namespace' => 'Dash'], function () {
-    Route::get('page/json', 'PageController@json');
     Route::resource('page', 'PageController');
 });
