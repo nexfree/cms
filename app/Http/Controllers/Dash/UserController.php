@@ -3,15 +3,15 @@
 namespace App\Http\Controllers\Dash;
 
 use App\Http\Controllers\Controller;
+use App\User;
 use Illuminate\Http\Request;
 
-class PageController extends Controller {
+class UserController extends Controller {
     public function index() {
-        return view('user/index');
-    }
-
-    public function json() {
-        return Page::all();
+        if (\Request::ajax()) {
+            return User::all();
+        }
+        return view('user.index');
     }
 
     public function create() {
