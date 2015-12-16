@@ -24,6 +24,7 @@
             </div>
         </div>
     </div>
+<<<<<<< HEAD
 </div>
 
 @endsection
@@ -36,3 +37,6 @@
     });
 </script>
 @endpush
+=======
+</div>
+>>>>>>> 622b159e9c8bc5474d2e93be56a0475e20319c4a

@@ -10,12 +10,12 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="panel-body">
-                        <h1>List ALl Pages</h1>
+                        <h1>All posts
+                            <a class="btn btn-default pull-right" href="{!! route('dash.page.create') !!}">New Post</a>
+                        </h1>
 
                             <!-- data-height="343" -->
                         <div id="toolbar">
-                        <a class="btn btn-default" href="{!! route('dash.page.create') !!}">New Page</a>
-
                             <button id="remove" class="btn btn-danger" disabled>
                                 <i class="glyphicon glyphicon-remove"></i> Delete
                             </button>
@@ -46,12 +46,9 @@
                             <thead>
                                 <tr>
                                     <th data-field="state" data-checkbox="true"></th>
-                                    <th data-field="id" data-align="center">Id</th>
                                     <th data-field="title">Title</th>
                                     <th data-field="slug">Slug</th>
-                                    <th data-field="image" data-visible="false">Image</th>
-                                    <th data-field="author" data-switchable="false">Author</th>
-                                    <th data-field="click_count" data-visible="false">Visitor</th>
+                                    <th data-field="content">Content</th>
                                     <th data-field="created_at">Create At</th>
                                     <th data-field="updated_at" data-visible="false">Update At</th>
                                     <th data-field="deleted_at" data-visible="false">Delete At</th>
