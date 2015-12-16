@@ -13,7 +13,7 @@
                         <h1>List ALl Pages</h1>
 
                         <div id="toolbar">
-                        <a class="btn btn-default" href="{!! route('dash.page.create') !!}">New Page</a>
+                            <a class="btn btn-default" href="{!! route('dash.page.create') !!}">New Page</a>
                             <button id="remove" class="btn btn-danger" disabled>
                                 <i class="glyphicon glyphicon-remove"></i> Delete
                             </button>
